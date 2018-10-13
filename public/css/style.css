@@ -1,0 +1,198 @@
+@charset "UTF-8";
+@font-face {
+    font-family: Exo;
+    src: url('../font/Exo-Regular.ttf') format("truetype");
+}
+
+
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url(../font/MaterialIcons-Regular.eot); /* For IE6-8 */
+    src: local('Material Icons'),
+         local('MaterialIcons-Regular'),
+         url(../font/MaterialIcons-Regular.woff2) format('woff2'),
+         url(../font/MaterialIcons-Regular.woff) format('woff'),
+         url(../font/MaterialIcons-Regular.ttf) format('truetype');
+  }
+  
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+  
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+  
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+  
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+}
+
+
+body {
+    font-family: 'Avenir', 'Helvetica Neue', 'Helvetica', 'Arial', 'Hiragino Sans', 'ヒラギノ角ゴシック',
+     'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic';
+    color: #807A7A;
+	font-size : 16px;
+    letter-spacing: 0.15em;
+    font-weight: 500;
+    background: #fafafa;
+
+}
+h2 {
+
+    margin: 40px auto;
+    font-size: 29px;
+    text-align: center;
+    color: #353030;
+
+}
+.modal{
+	width: 600px;
+    height: 100px;
+}
+
+.modal.modal-fixed-footer{
+    height: 200px;
+}
+
+
+
+
+.brand-logo{
+	font-family: Exo;
+	margin-left: 20px;
+}
+.sidenav{
+	top: 65px;
+	width: 250px;
+}
+
+
+li{
+    list-style: none;
+}
+.collection_add {
+    /* コレクションのうち上部分だけボーダーボトムを消す */
+    border-bottom: 0px !important;
+}
+
+.btn-small:hover {
+    /* ボタン小のホバー時の色を修正 */
+    background-color: rgba(0,0,0,0.05) !important;
+}
+
+.btn-2:hover {
+    background-color: #c8e6c9 !important;
+}
+
+.collection a.collection-item:not(.active):hover{
+    /* collection-itemのホバー時の色が濃いので修正 */
+    background-color: rgba(0,0,0,0.05) !important;
+}
+
+.icon-large {
+    font-size: 48px;
+}
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+.main-title{
+  font-family: Exo;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+
+.share-buttons li{
+	display: inline;
+}
+
+.list{
+    list-style-type: circle;
+}
+
+.small_container{
+    width: 35%;
+    margin: 0 auto;
+}
+
+
+/* VuetifyのCSS対策 */
+.container{
+    flex: initial !important;
+    margin: 0 auto !important;
+    padding: initial !important;
+    max-width: initial !important;
+}
+
+@media only screen and (min-width: 993px){
+.container {
+    width: 70% !important;
+}
+}
+
+@media only screen and (min-width: 601px){
+.container {
+    width: 85% !important;
+}
+}
+
+@media screen and (min-width: 992px)
+{
+    .box{
+        margin-left: 250px;
+        left: 250px;
+    
+    }
+ }
+
+ .small-container{
+    width: 70% !important;
+    margin: 0 auto;
+}
+
+
+.delete{
+    cursor: pointer;
+    z-index: 2;
+}
+
+
+.application--wrap{
+    display:block !important;
+    min-height:auto !important;
+}
+
+
+textarea {
+    margin:10px;
+    width : 100%;
+    height: 300px;
+    background-color: rgba( 200, 200, 200, 0.1 );
+    font-size:1rem;
+}

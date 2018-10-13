@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>test</title>
+	<link href="https://fonts.googleapis.com/css?family=Exo" rel="stylesheet">
+	<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/material-design-icons/3.0.1/iconfont/material-icons.min.css'>
+	<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css'>
+	<link rel="stylesheet" href="./css/style.css">
+	<style type="text/css">
+	</style>
+</head>
+
+<body>
+	<header>
+		<ul id="mobile-demo" class="sidenav sidenav-fixed">
+			<li class="logo">
+			</li>
+			<li class="bold"><a href="" class="waves-effect waves-teal"><i class="material-icons">list</i>ファイル一覧</a></li>
+			<li class="bold"><a href="" class="waves-effect waves-teal"><i class="material-icons">cloud</i>アップロード</a></li>
+			<li class="bold"><a href="mobile.html" class="waves-effect waves-teal">Mobile</a></li>
+			<li class="bold"><a href="showcase.html" class="waves-effect waves-teal">Showcase</a></li>
+			<li class="bold"><a href="themes.html" class="waves-effect waves-teal">Themes</a></li>
+		</ul>
+		<!-- Sidebar BSA-->
+	</header>
+	<div class="navbar-fixed">
+		<nav>
+			<div class="nav-wrapper">
+				<a href="#!" class="brand-logo">OCRusion 日本語OCR</a>
+				<a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+				<ul class="right hide-on-med-and-down">
+					<li><a href="sass.html">Sass</a></li>
+					<li><a href="badges.html">Components</a></li>
+					<li><a href="collapsible.html">Javascript</a></li>
+					<li><a href="mobile.html">Mobile</a></li>
+				</ul>
+			</div>
+		</nav>
+	</div>
+	<main class="box">
+		<div class="container ">
+			<div class="row">
+				<div class="col s12">
+					<h3>アップロード済みファイル</h3>
+					<hr />
+<div class="collection">
+        <a href="#!" class="collection-item">Alvin</a>
+        <a href="#!" class="collection-item active">Alvin</a>
+        <a href="#!" class="collection-item">Alvin</a>
+        <a href="#!" class="collection-item">Alvin</a>
+      </div>
+
+
+					<div class="collection">
+						<a href = "#" class = "collection-item avatar waves-effect"><i class="material-icons circle">folder</i>
+						<span class="title black-text">Title</span>
+						<p class="blue-grey-text lighten-1">First Line <br>
+
+						 </p>
+										 <span class="secondary-content"><i class="material-icons grey-text lighten-1">grade</i></span>
+						</a>
+
+						<li class="collection-item">
+							<a class="waves-effect waves-teal btn-flat btn-small" onclick="dlClick('aiu')">
+								<i class="material-icons left">cloud_download</i>DL
+							</a>
+							<a value="aiu" class="waves-effect waves-teal btn-flat btn-small" onclick="delClick('aiu')">
+									<i class="material-icons left">delete</i>削除
+								</a>
+						</li>
+
+
+						<a href = "#" class = "collection-item avatar waves-effect"><i class="material-icons circle green">folder</i>
+										<span class="title black-text">Title</span>
+										<p class="blue-grey-text lighten-1">First Line <br>
+
+										 </p>
+										 <span class="secondary-content"><i class="material-icons green-text">grade</i></span>
+									</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js'></script>
+	<script>
+	document.addEventListener('DOMContentLoaded', function() {
+		var elems = document.querySelectorAll('.sidenav');
+		var instances = M.Sidenav.init(elems);
+	});
+
+function delClick(val){
+	if (window.confirm("削除をしますか？")){
+		document.getElementById('delete').submit();
+	}
+}
+
+
+	</script>
+</body>
+
+</html>
