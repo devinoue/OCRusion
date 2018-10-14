@@ -17,8 +17,6 @@ Route::get('/',function(){
     return view('index');
 });
 
-Route::get('artisan/{request}', 'Controller@artisan');
-
 Route::group(['middleware'=>'auth'],function(){
 
     Route::post('/register_dir','OCRusionController@registerDir');
@@ -37,7 +35,7 @@ Route::get('/contact',function(){return view('policies.contact');});
 Route::get('/privacy',function(){return view('policies.privacy');});
 
 
-
+// ログアウト用
 Route::get('logout', 'Auth\LoginController@logout')->name('logout');
 
 Auth::routes();
