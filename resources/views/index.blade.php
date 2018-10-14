@@ -29,15 +29,15 @@
 							<h1 class="white-text main-title">OCRusion</h1>
 							<div class="row">
 									<p class="col s12 white-text">画像から日本語テキストを抽出するOCRサービスです。
-									<br>縦書きにも対応。誰でも自由にテキストを読もう🎁</p>
+									<br>縦書きにも対応。自由にテキストを読もう🎁</p>
 							</div>
 							<div class="row center">
 									<a href="{{url('/register')}}" class="waves-effect waves-light btn-large green lighten-1 btn-2">登録を10秒で終える</a>
 							</div>
 							<br><br>
-						</div>  <!-- /container -->
-					</div>  <!-- /container -->
-					</div>  <!-- /container -->
+						</div>
+					</div>
+					</div>
 				<div class="parallax"><img src="{{asset('/img/main1.png')}}" alt=""></div>
 			</div><!-- /parallax-container -->
 
@@ -54,7 +54,7 @@
 								<h5 class="center">Googleの高精度OCR</h5>
 		
 								<p class="light">Googleの高精度OCRを利用しています。
-									難解と思われていた日本語OCRに
+									難解と思われていた日本語の読みとりも、強力な機械学習モデルによって精度の高い日本語テキストへの変換が可能です。
 									<br>登録後はすぐにアップロードできます。</p>
 						</div>
 						<div class="col s12 m4">
@@ -62,9 +62,8 @@
 							<h2 class="center"><i class="material-icons icon-large">
 									translate
 									</i></h2>
-							<h5 class="center">縦書きにも対応</h5>
-							<p class="light">日本語で書かれた縦書き小説ももちろん解析可能です。<br>
-								横書きの専門書から捨てられない本まで、どんなものまでテキスト化することができます。</p>
+							<h5 class="center">縦書き・多言語に対応</h5>
+							<p class="light">縦書き小説ももちろん解析可能です。長い本は一度テキスト化することでPC上で編集しながら読むことができます。もちろん横書きの専門書も、英語や多言語のテキストまで、幅広い言語も抽出することができます。</p>
 						</div>		
 						<div class="col s12 m4">
 								<h2 class="center"><i class="material-icons icon-large">
@@ -73,7 +72,7 @@
 								<h5 class="center">すべて無料</h5>
 		
 								<p class="light">完全無料でご使用になられます。<br>
-									いくら使ってもOKです。
+									現在の所はアップロードサイズ制限を守っていただければ、ご自由に何度もファイルをアップすることができます。<br>※あまりにサーバー側の負荷が大きいと停止される可能性もあるので、常識の範囲内でお願いします。
 								
 								</p>
 						</div>
@@ -94,12 +93,13 @@
 					<div class="container">
 						<div class="row col s12 white-text">
 								<p>
-									読んだ本をブログで引用したいというときも、いちいち手入力していますか？
-									OCRusionは今すぐにでも役に立ちます。<br>
+									読んだ本をブログで引用したいというとき、いちいち手入力していますか？<br>
+									OCRusionはそんなとき今すぐにでも役に立ちます。<br>
 										<br><br>
 									難解な専門書をゆっくり読みたい人は、もっと改行が欲しいと思うでしょう。<br>
-									テキスト形式にすることで、ずっと読みやすくなり、<br>
-									本をまとめるスピードはますます早くなるでしょう。<br>
+									一行一行に分割すると、難解な本もずっと読みやすくなり、<br>
+									<br>本の内容をまとめるスピードはますます早くなるでしょう。<br>
+									OCRusionは
 									
 								</p>
 							</div>  <!-- /container -->
@@ -196,11 +196,10 @@
 				</div>
 				 --}}
 				
-				<footer class="page-footer purple lighten-1">
-				 
+				<footer class="page-footer red">
 					<div class="footer-copyright">
-					<div class="container">
-					 <p>Copyright © OCRusion.</p>
+					<div class="container center">
+					<p>© {{date('Y',time())}} OCRusion, All rights reserved.</p>
 					</div>
 					</div>
 				</footer>
