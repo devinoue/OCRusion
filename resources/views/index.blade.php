@@ -38,7 +38,7 @@
 						</div>
 					</div>
 					</div>
-				<div class="parallax"><img src="{{asset('/img/main1.png')}}" alt=""></div>
+				<div class="parallax"><img src="{{asset('/img/main1.jpg')}}" alt=""></div>
 			</div><!-- /parallax-container -->
 
 
