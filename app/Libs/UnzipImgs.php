@@ -148,7 +148,7 @@ class UnzipImgs
 	 * @param string $file 判断するファイルへの相対パス
 	 * @return boolean	画像と判断されれば拡張子が返される。それ以外ならfalseが返る
 	 */
-	function isValidImage($file)
+	public function isValidImage($file)
 	{
 		$check_ext = [
 			'gif' => 'image/gif',
