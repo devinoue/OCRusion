@@ -56,7 +56,23 @@
 						</div>
 					</form>
 				</div>
+				<div class="card-action">
+					<a href="{{ url('/auth/google')}}" class="round waves-effect waves-light btn deep-orange accent-4 white-text">
+						
+						Googleでログイン
+					</a>
+					<a href="{{ url('/auth/facebook')}}" class="round waves-effect waves-light btn indigo darken-4 white-text">
+						
+						Facebookでログイン
+					</a>
+					<a href="{{ url('/auth/github')}}" class="round waves-effect waves-light btn grey darken-4 white-text">
+						
+						Githubでログイン
+					</a>
+
+				</div>
 			</div>
 </div>
 </div>
+
 @endsection

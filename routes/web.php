@@ -12,6 +12,19 @@
 */
 
 
+Route::get('/screenshot',function(){
+    return view('policies.screenshot');
+});
+
+
+
+//ソーシャル認証へリダイレクトする
+//ソーシャル認証へリダイレクトする
+Route::get('auth/{provider}','Auth\AuthController@redirecToProvider');
+//ソーシャル認証後の処理
+Route::get('auth/{provider}/callback', 'Auth\AuthController@handleProviderCallback');
+
+
 
 Route::get('/',function(){
     return view('index');

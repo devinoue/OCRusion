@@ -13,3 +13,5 @@ yarn-error.log
 .env
 .phpunit.result.cache
 /config/OCR.php
+/public/screenshots
+/resources/views/policies/screenshot.blade.php

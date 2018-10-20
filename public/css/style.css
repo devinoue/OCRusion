@@ -1,4 +1,7 @@
 @charset "UTF-8";
+
+
+
 @font-face {
     font-family: Exo;
     src: url('../font/Exo-Regular.ttf') format("truetype");
@@ -41,6 +44,10 @@
     /* Support for IE. */
     font-feature-settings: 'liga';
 }
+
+
+
+
 
 
 body {
@@ -103,6 +110,10 @@ li{
 .collection a.collection-item:not(.active):hover{
     /* collection-itemのホバー時の色が濃いので修正 */
     background-color: rgba(0,0,0,0.05) !important;
+}
+
+.round {
+	border-radius: 5px;
 }
 
 .icon-large {
