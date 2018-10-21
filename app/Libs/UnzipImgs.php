@@ -151,7 +151,7 @@ class UnzipImgs
 	public function isValidImage($file)
 	{
 		$check_ext = [
-			'gif' => 'image/gif',
+			'gif' => 'image/gif', 
 			'jpg' => 'image/jpeg',
 			'png' => 'image/png',
 			];

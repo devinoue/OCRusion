@@ -6,14 +6,14 @@ use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use Auth;
 use Socialite;
-use App\User;
+use App\User; 
 
 class AuthController extends Controller
 {
     public function redirecToProvider($provider) {
     	return Socialite::driver($provider)->redirect();
     }
-    //ソーシャル 認 証 後 の 処 理 （セッションにデータを 預 けたり）
+    //ソーシャル認証後の処理 
     public function handleProviderCallback($provider) {
 		$user;
 		if ($provider == 'google')  {
@@ -23,8 +23,8 @@ class AuthController extends Controller
         }
     	$authUser = $this->findOrCreateUser($user, $provider);
 
-    	Auth::login($authUser, true); //Auth にソーシャル 情 報 を 預 けてログイン
-    	return redirect('/dashboard');//★★ 認 証 後 に 表示 したいページを 指定 ★★
+    	Auth::login($authUser, true); //Authにソーシャル情報を預けてログイン
+    	return redirect('/dashboard');
     }
     //ユーザー 追加 ＆ ユーザーデータ 取得
     public function findOrCreateUser($user, $provider) {
