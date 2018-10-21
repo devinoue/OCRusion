@@ -43,7 +43,7 @@ Route::group(['middleware'=>'auth'],function(){
 // Cron及び手動による処理
 Route::get('/batch','OCRusionController@ocrBatch');
 
-// その他のページ
+// その他のページ 
 Route::get('/contact',function(){return view('policies.contact');});
 Route::get('/privacy',function(){return view('policies.privacy');});
 

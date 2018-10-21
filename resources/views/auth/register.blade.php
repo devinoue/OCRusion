@@ -72,7 +72,7 @@
 		<div class="card-action">
 			<a href="{{ url('/auth/google')}}" class="round waves-effect waves-light btn deep-orange accent-4 white-text">
 				
-				Googleで登録
+				Googleで登録 
 			</a>
 			<a href="{{ url('/auth/facebook')}}" class="round waves-effect waves-light btn indigo darken-4 white-text">
 				
