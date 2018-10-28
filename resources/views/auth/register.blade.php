@@ -9,7 +9,6 @@
 					<form method="POST" action="{{ route('register') }}">
 						@csrf
 
-
 						{{-- <div class="input-field">
 								<input  id="name" type="text"
 									class="validate form-control{{ $errors->has('name') ? ' is-invalid' : '' }}"
