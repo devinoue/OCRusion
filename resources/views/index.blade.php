@@ -99,8 +99,7 @@
 									難解な専門書をゆっくり読みたい人は、もっと改行が欲しいと思うでしょう。<br>
 									一行一行に分割すると、難解な本もずっと読みやすくなり、<br>
 									本の内容をまとめるスピードはますます早くなるでしょう。<br>
-									
-									
+
 								</p>
 							</div>  <!-- /container -->
 						</div>
@@ -134,67 +133,7 @@
 		</div>
 			</div>	
 			
-{{-- 
-				
-				<div class="container section scrollspy" id="contactus">
-						<br>
-					<br>
-					<h2>About us</h2>	
-					
-				<div class="row">
-						
-				<form class="col s8">
-				
-					<div class="row">
-					<div class="input-field col s6">
-						<input id="name" type="text" class="validate">
-						<label for="name">Your Name</label>
-					</div>
-				 
-					
-					<div class="input-field col s6">
-						<input id="email" type="email" class="validate">
-						<label for="email">Your Email</label>
-					</div>
-					</div><!--row-->
-					
-					 <div class="row">
-					<div class="input-field col s12">
-						<input id="message-sub" type="email" class="validate">
-						<label for="message-sub">Message Subject</label>
-					</div>
-					</div>
-					
-					 <div class="row">
-					<div class="input-field col s12">
-						 <textarea id="text_area" class="materialize-textarea"></textarea>
-						<label for="text_area">Your Message</label>
-					</div>
-					</div>
-					
-					 
-					<div>
-						<a class="waves-effect waves-light btn purple lighten-1">Send Message<i class="mdi-content-send right"></i></a>
-					</div>
-					 </form>
-					 
-					<div class="col s12 m4">
-									<p>
-									OCRusionは個人プロジェクトです。<br>
-									
-									</p>
-								 <ul class="share-buttons">
-					<li><a href="https://www.facebook.com/sharer/sharer.php?u=&t=" target="_blank" title="Share on Facebook"><img src="images/flat_web_icon_set/inverted/Facebook.png"></a></li>
-					<li><a href="https://twitter.com/intent/tweet?hashtags=OCRusion%20" target="_blank" title="Tweet"><img src="images/flat_web_icon_set/inverted/Twitter.png"></a></li>
-					<li><a href="https://plus.google.com/share?url=" target="_blank" title="Share on Google+"><img src="images/flat_web_icon_set/inverted/GooglePlus.png"></a></li>
-				</ul>
-								</div>
-					 
-					 
-				</div>
 
-				</div>
-				 --}}
 				
 				<footer class="page-footer red">
 					<div class="footer-copyright">
