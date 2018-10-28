@@ -21,3 +21,5 @@ APIにcURLを利用してアクセスし、`json_decode`しています。
 
 
 
+
+
