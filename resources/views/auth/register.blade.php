@@ -10,7 +10,7 @@
 						@csrf
 
 
-						<div class="input-field">
+						{{-- <div class="input-field">
 								<input  id="name" type="text"
 									class="validate form-control{{ $errors->has('name') ? ' is-invalid' : '' }}"
 									name="name" value="{{ old('name') }}" required autofocus>
@@ -21,7 +21,7 @@
 										<strong>{{ $errors->first('name') }}</strong>
 									</span>
 								@endif
-						</div>
+						</div> --}}
 
 
 
