@@ -36,11 +36,7 @@
 		<a href="{{url($ocr_text->img_path)}}" target="_blank">{{str_replace($ocr_text->target_dir,'',$ocr_text->img_path)}}</a>
 		@endif
 	<div>
-	<textarea id="text" placeholder="ここにテキストが入ります">
-
-		{{$ocr_text->ocr_text}}
-
-	</textarea>
+	<textarea id="text" placeholder="ここにテキストが入ります">{{$ocr_text->ocr_text}}</textarea>
 </div><br>
 	@endforeach
 	@endisset
