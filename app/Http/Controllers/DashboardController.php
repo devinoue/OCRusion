@@ -31,6 +31,7 @@ class DashboardController extends Controller
 
 	}
 
+
 	public function upload_front(){
 		$user = Auth::user();
 		return view('upload_front',compact('user'));
