@@ -20,6 +20,6 @@ The OCRusion is open-sourced software licensed under the [MIT license](https://o
 APIにcURLを利用してアクセスし、`json_decode`しています。
 
 
-
+cURLとAPI接続の参考にしたページはこちら
 
 
