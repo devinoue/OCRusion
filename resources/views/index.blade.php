@@ -122,7 +122,7 @@
 			<div class="small_container">
 				<p>
 				OCRuisonは個人プロジェクトです。<br>
-				ご連絡はメールまで。&#100;&#97;r&#119;inian&#49;&#56;&#53;&#57;&#64;g&#109;ai&#108;.&#99;&#111;m
+				ご連絡はメールまで。&#112;&#97;s&#116;eu&#114;&#49;&#56;&#50;2&#64;&#103;m&#97;&#105;l&#46;c&#111;m
 				</p>
 				<ul class="share-buttons">
 						<li><a href="https://www.facebook.com/sharer/sharer.php?u=&t=" target="_blank" title="Share on Facebook"><img src="images/flat_web_icon_set/inverted/Facebook.png"></a></li>
